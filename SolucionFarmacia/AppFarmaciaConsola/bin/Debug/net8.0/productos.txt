@@ -1,0 +1,13 @@
+medicamento;Dolex;5000;2;5;2025-10-10;MK
+medicamento;Ibuprofeno;7000;10;5;2025-11-10;Genfar
+medicamento;Amoxicilina;12000;1;5;2025-09-20;Bayer
+medicamento;Acetaminofen;4500;8;5;2025-08-15;MK
+medicamento;Omeprazol;15000;20;5;2026-01-10;LaSante
+medicamento;Loratadina;9000;4;5;2025-07-25;Genfar
+medicamento;VitaminaC;6000;15;5;2026-02-11;Nature
+medicamento;Diclofenaco;11000;3;5;2025-06-12;Bayer
+medicamento;Aspirina;7500;9;5;2025-12-30;MK
+medicamento;Naproxeno;13500;7;5;2025-09-01;Genfar
+servicio;Inyectologia;8000;15
+servicio;CambioDeVendajes;12000;20
+servicio;CuracionBasica;15000;25
