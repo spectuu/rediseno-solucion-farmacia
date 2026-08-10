@@ -60,7 +60,7 @@ cd caracterizacion
 .\run-demo.ps1
 ```
 
-## Verificaciones de arquitectura (plan §11 y §13.5)
+## Verificaciones de arquitectura
 
 Las cuatro son un `grep`:
 
