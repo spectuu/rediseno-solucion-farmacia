@@ -25,7 +25,12 @@ namespace BibFarmacia.Servicios
 
         public Movimiento RegistrarVenta(ArticuloVendible articulo, int cantidad)
         {
-            articulo.Despachar(cantidad);
+            // Chequeo por capacidad, el mismo idioma de ReglaStockMinimo: solo
+            // lo que se almacena descuenta inventario; un Servicio no lo hace.
+            if (articulo is IDespachable despachable)
+            {
+                despachable.Despachar(cantidad);
+            }
 
             Movimiento movimiento = new Movimiento(
                 reloj.GetLocalNow().DateTime,
