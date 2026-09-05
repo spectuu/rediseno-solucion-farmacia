@@ -20,6 +20,8 @@ var notificador = new NotificadorConsola();   // DIP-7: los colores viven dentro
 var fabricas = new IFabricaDeArticulo[]
 {
     new FabricaMedicamento(),
+    new FabricaCosmetico(),        // SC-1: la linea de registro
+    new FabricaComestible(),       // SC-1: la linea de registro
     new FabricaServicio()          // SC-2: la linea de registro (vista D2)
 };
 
