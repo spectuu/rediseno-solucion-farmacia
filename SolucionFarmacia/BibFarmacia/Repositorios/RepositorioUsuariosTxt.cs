@@ -1,60 +1,25 @@
 using BibFarmacia.Clases;
-using BibFarmacia.Enumeraciones;
 using BibFarmacia.Interfaces;
 
 namespace BibFarmacia.Repositorios
 {
+    // Cliente del Template Method: compone un cargador y le delega la carga.
+    // No hereda de nadie, conserva ICargable y la firma de su constructor, asi
+    // que el composition root no cambia. Lo suyo es buscar usuarios.
     public sealed class RepositorioUsuariosTxt : IRepositorioUsuarios, ICargable
     {
-        private readonly List<Usuario> usuarios;
-        private readonly LectorDeArchivoDelimitado lector;
-        private readonly string ruta;
+        private readonly CargadorTxt<Usuario> cargador;
 
         public RepositorioUsuariosTxt(string ruta)
         {
-            usuarios = new List<Usuario>();
-            lector = new LectorDeArchivoDelimitado();
-            this.ruta = ruta;
+            cargador = new CargadorUsuariosTxt(ruta);
         }
 
-        public ResultadoDeCarga Cargar()
-        {
-            if (!File.Exists(ruta))
-            {
-                return new ResultadoDeCarga(
-                    EstadoCarga.ArchivoNoEncontrado, 0, null);
-            }
-
-            int cargados = 0;
-
-            try
-            {
-                foreach (string[] datos in lector.Leer(ruta, ';'))
-                {
-                    usuarios.Add(new Usuario(
-                        datos[0],
-                        datos[1],
-                        datos[2],
-                        datos[3],
-                        datos[4],
-                        datos[5]));
-
-                    cargados++;
-                }
-
-                return new ResultadoDeCarga(
-                    EstadoCarga.Exitosa, cargados, null);
-            }
-            catch (Exception ex)
-            {
-                return new ResultadoDeCarga(
-                    EstadoCarga.Fallo, cargados, ex.Message);
-            }
-        }
+        public ResultadoDeCarga Cargar() => cargador.Cargar();
 
         public Usuario? BuscarPorNombreDeUsuario(string nombre)
         {
-            return usuarios.FirstOrDefault(u =>
+            return cargador.Elementos.FirstOrDefault(u =>
                 u.NombreDeUsuario == nombre);
         }
     }
