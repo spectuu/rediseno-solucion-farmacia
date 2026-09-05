@@ -10,3 +10,15 @@ C:\Users\SoySp\OneDrive\Desktop\workspace arquitectura de software\Parcial1-ArqS
 C:\Users\SoySp\OneDrive\Desktop\workspace arquitectura de software\Parcial1-ArqSoftware\03-src\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\refint\BibFarmacia.dll
 C:\Users\SoySp\OneDrive\Desktop\workspace arquitectura de software\Parcial1-ArqSoftware\03-src\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.pdb
 C:\Users\SoySp\OneDrive\Desktop\workspace arquitectura de software\Parcial1-ArqSoftware\03-src\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\ref\BibFarmacia.dll
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\bin\Debug\net8.0\BibFarmacia.deps.json
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\bin\Debug\net8.0\BibFarmacia.dll
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\bin\Debug\net8.0\BibFarmacia.pdb
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.AssemblyInfoInputs.cache
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.AssemblyInfo.cs
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.csproj.CoreCompileInputs.cache
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.sourcelink.json
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.dll
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\refint\BibFarmacia.dll
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\BibFarmacia.pdb
+C:\Users\SoySp\OneDrive\Desktop\Universidad\Parcial1-ArqSoftware\03-src\rediseno-solucion-farmacia\SolucionFarmacia\BibFarmacia\obj\Debug\net8.0\ref\BibFarmacia.dll

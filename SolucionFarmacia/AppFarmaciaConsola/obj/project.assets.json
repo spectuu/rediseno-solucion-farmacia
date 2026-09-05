@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\AppFarmaciaConsola\\AppFarmaciaConsola.csproj",
+      "projectUniqueName": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\AppFarmaciaConsola\\AppFarmaciaConsola.csproj",
       "projectName": "AppFarmaciaConsola",
-      "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\AppFarmaciaConsola\\AppFarmaciaConsola.csproj",
+      "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\AppFarmaciaConsola\\AppFarmaciaConsola.csproj",
       "packagesPath": "C:\\Users\\SoySp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\AppFarmaciaConsola\\obj\\",
+      "outputPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\AppFarmaciaConsola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SoySp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj": {
-              "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj"
+            "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj": {
+              "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj"
             }
           }
         }

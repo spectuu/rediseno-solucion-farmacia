@@ -11,3 +11,9 @@ medicamento;Naproxeno;13500;7;5;2025-09-01;Genfar
 servicio;Inyectologia;8000;15
 servicio;CambioDeVendajes;12000;20
 servicio;CuracionBasica;15000;25
+cosmetico;ProtectorSolar;25000;6;3;2027-03-15;Nivea
+cosmetico;CremaHidratante;18000;2;3;2026-12-01;Eucerin
+comestible;Gaseosa;3500;30;10;2026-10-20;Postobon
+comestible;AguaBotella;2000;40;10;2027-05-05;Cristal
+comestible;Helado;4500;8;5;2026-09-25;CremHelado
+comestible;Snack;2500;12;5;2026-11-11;FritoLay

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj",
+      "projectUniqueName": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj",
       "projectName": "BibFarmacia",
-      "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj",
+      "projectPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\BibFarmacia\\BibFarmacia.csproj",
       "packagesPath": "C:\\Users\\SoySp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\workspace arquitectura de software\\Parcial1-ArqSoftware\\03-src\\SolucionFarmacia\\BibFarmacia\\obj\\",
+      "outputPath": "C:\\Users\\SoySp\\OneDrive\\Desktop\\Universidad\\Parcial1-ArqSoftware\\03-src\\rediseno-solucion-farmacia\\SolucionFarmacia\\BibFarmacia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SoySp\\AppData\\Roaming\\NuGet\\NuGet.Config",
