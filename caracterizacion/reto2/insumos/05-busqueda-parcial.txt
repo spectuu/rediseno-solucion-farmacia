@@ -1,0 +1,7 @@
+admin
+1234
+4
+na
+4
+producto-inexistente
+8

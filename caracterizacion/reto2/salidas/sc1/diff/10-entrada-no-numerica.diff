@@ -1,0 +1,20 @@
+﻿diff --git "a/C:\\Users\\SoySp\\AppData\\Local\\Temp\\claude\\C--Users-SoySp-OneDrive-Desktop-Universidad-Parcial1-ArqSoftware\\e90aded4-6243-467a-bece-5d175df6d0a1\\scratchpad\\salidas-final-sc1\\as-is\\10-entrada-no-numerica.txt" "b/C:\\Users\\SoySp\\AppData\\Local\\Temp\\claude\\C--Users-SoySp-OneDrive-Desktop-Universidad-Parcial1-ArqSoftware\\e90aded4-6243-467a-bece-5d175df6d0a1\\scratchpad\\salidas-final-sc1\\to-be\\10-entrada-no-numerica.txt"
+index 37635b0..7ffd93c 100644
+--- "a/C:\\Users\\SoySp\\AppData\\Local\\Temp\\claude\\C--Users-SoySp-OneDrive-Desktop-Universidad-Parcial1-ArqSoftware\\e90aded4-6243-467a-bece-5d175df6d0a1\\scratchpad\\salidas-final-sc1\\as-is\\10-entrada-no-numerica.txt"
++++ "b/C:\\Users\\SoySp\\AppData\\Local\\Temp\\claude\\C--Users-SoySp-OneDrive-Desktop-Universidad-Parcial1-ArqSoftware\\e90aded4-6243-467a-bece-5d175df6d0a1\\scratchpad\\salidas-final-sc1\\to-be\\10-entrada-no-numerica.txt"
+@@ -11,6 +11,7 @@ ALERTA: stock mínimo de Dolex
+ ALERTA: stock mínimo de Amoxicilina
+ ALERTA: stock mínimo de Loratadina
+ ALERTA: stock mínimo de Diclofenaco
++ALERTA: stock mínimo de CremaHidratante
+ ALERTA: Dolex próximo a vencer
+ ALERTA: Ibuprofeno próximo a vencer
+ ALERTA: Amoxicilina próximo a vencer
+@@ -21,6 +22,7 @@ ALERTA: VitaminaC próximo a vencer
+ ALERTA: Diclofenaco próximo a vencer
+ ALERTA: Aspirina próximo a vencer
+ ALERTA: Naproxeno próximo a vencer
++ALERTA: Helado próximo a vencer
+ 
+ ==============================
+       SISTEMA FARMACIA
