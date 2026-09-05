@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace BibFarmacia.Clases
 {
+    // Se construye una sola vez, en FabricaMedicamento, con direccion y
+    // telefono fijos (H-06, G0), y no se muta despues: los tres datos son de
+    // solo lectura. Direccion y Telefono se almacenan y no se imprimen.
     public class Laboratorio
     {
-        public string Nombre { get; set; }
-        public string Direccion { get; set; }
-        public string Telefono { get; set; }
+        private readonly string nombre;
+        private readonly string direccion;
+        private readonly string telefono;
+
+        public string Nombre => nombre;
+        public string Direccion => direccion;
+        public string Telefono => telefono;
 
         public Laboratorio(string nombre,
             string direccion,
             string telefono)
         {
-            Nombre = nombre;
-            Direccion = direccion;
-            Telefono = telefono;
+            this.nombre = nombre;
+            this.direccion = direccion;
+            this.telefono = telefono;
         }
     }
 }
