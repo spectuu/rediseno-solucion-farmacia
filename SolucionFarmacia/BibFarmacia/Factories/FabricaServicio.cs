@@ -3,15 +3,13 @@ using BibFarmacia.Interfaces;
 
 namespace BibFarmacia.Factories
 {
-    // SC-2: la extension entra por el punto que ya existia en capa 0
-    // (IFabricaDeArticulo, DIP-9). Columnas del tipo servicio:
+    // SC-2: implementacion de IFabricaDeArticulo (Factory Method en ambito de
+    // objeto) para la clave "servicio". Entro por el punto de extension que ya
+    // existia, sin tocar a quien elige la fabrica. Columnas del tipo:
     // nombre;precio;duracionMinutos
     public sealed class FabricaServicio : IFabricaDeArticulo
     {
-        public bool PuedeCrear(string tipoDeArticulo)
-        {
-            return tipoDeArticulo == "servicio";
-        }
+        public string Tipo => "servicio";
 
         public ArticuloVendible Crear(string[] columnas)
         {

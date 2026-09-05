@@ -2,14 +2,15 @@ using BibFarmacia.Clases;
 
 namespace BibFarmacia.Interfaces
 {
-    // Punto de extension OCP (ADR-04): cada fabrica se autoselecciona con
-    // PuedeCrear y el registro vive en el composition root. Crear recibe un
-    // registro posicional de campos ya sin la columna de tipo: la fabrica
-    // conoce el orden de las columnas de su propio tipo, el repositorio
-    // conoce el archivo.
+    // Factory Method, variante de ambito de objeto: interfaz de creacion con
+    // implementaciones registradas en el composition root y elegidas por
+    // clave. Crear es el metodo de fabricacion y Tipo la clave de seleccion.
+    // La instanciacion se difiere por composicion y registro, no por herencia
+    // sobre el Creator, porque el repositorio varia con la fuente de datos y
+    // no con el tipo de articulo. Crear recibe la fila ya sin la columna de tipo.
     public interface IFabricaDeArticulo
     {
-        bool PuedeCrear(string tipoDeArticulo);
+        string Tipo { get; }
         ArticuloVendible Crear(string[] columnas);
     }
 }

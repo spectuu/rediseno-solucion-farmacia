@@ -6,7 +6,8 @@ namespace BibFarmacia.Repositorios
 {
     // El repositorio conoce el archivo (ruta, separador, que columna trae el
     // tipo); la fabrica conoce el orden de las columnas de su propio tipo.
-    // columnaDeTipo: -1 cuando el archivo no trae esa columna (capa 0).
+    // columnaDeTipo es un indice valido del archivo: la rama -1 de capa 0
+    // salio con SC-2, porque toda fila trae tipo y Program.cs fija 0.
     public sealed class RepositorioCatalogoTxt : IRepositorioCatalogo, ICargable
     {
         private readonly List<ArticuloVendible> articulos;
@@ -42,18 +43,15 @@ namespace BibFarmacia.Repositorios
             {
                 foreach (string[] columnas in lector.Leer(ruta, ';'))
                 {
-                    string tipoDeArticulo =
-                        columnaDeTipo >= 0
-                            ? columnas[columnaDeTipo]
-                            : string.Empty;
+                    string tipoDeArticulo = columnas[columnaDeTipo];
 
-                    string[] datos =
-                        columnaDeTipo >= 0
-                            ? QuitarColumna(columnas, columnaDeTipo)
-                            : columnas;
+                    string[] datos = QuitarColumna(columnas, columnaDeTipo);
 
+                    // Seleccion de la fabrica por clave. Se conserva
+                    // Enumerable.First: una fila con tipo sin fabrica sigue
+                    // produciendo la misma InvalidOperationException (G0).
                     IFabricaDeArticulo fabrica =
-                        fabricas.First(f => f.PuedeCrear(tipoDeArticulo));
+                        fabricas.First(f => f.Tipo == tipoDeArticulo);
 
                     articulos.Add(fabrica.Crear(datos));
 
