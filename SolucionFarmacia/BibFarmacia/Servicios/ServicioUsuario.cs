@@ -3,8 +3,9 @@ using BibFarmacia.Interfaces;
 
 namespace BibFarmacia.Servicios
 {
-    // La politica de credenciales ya no es una clase estatica: es una
-    // dependencia sustituible (H-05, DIP-5).
+    // Strategy, Context: delega la verificacion de credenciales en la
+    // IVerificadorCredenciales que elige el composition root. La politica ya
+    // no es una clase estatica (H-05) y se sustituye sin tocar este servicio.
     public sealed class ServicioUsuario
     {
         private readonly IRepositorioUsuarios repositorio;

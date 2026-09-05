@@ -3,10 +3,11 @@ using BibFarmacia.Interfaces;
 
 namespace AppFarmaciaConsola
 {
-    // Un adaptador de salida para los cuatro avisos: reemplaza las cuatro
-    // lambdas de suscripcion que Program.cs registraba con += (H-08, H-18).
+    // Puerto de salida de INotificador para los cuatro avisos: reemplaza las
+    // cuatro lambdas de suscripcion que Program.cs registraba con += (H-08,
+    // H-18). No envuelve ninguna interfaz ajena ni traduce firmas: escribe.
     // Es el unico switch legitimo sobre TipoAviso (regla A-2). Sin default a
-    // proposito: un TipoAviso nuevo sin color es CS8509 del compilador (§8.1).
+    // proposito: un TipoAviso nuevo sin color es CS8509 del compilador.
     public sealed class NotificadorConsola : INotificador
     {
         public void Notificar(Aviso aviso)
